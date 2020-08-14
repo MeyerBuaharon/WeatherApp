@@ -1,0 +1,152 @@
+[
+    {
+        "Version": 1,
+        "Key": "316938",
+        "Type": "City",
+        "Rank": 10,
+        "LocalizedName": "Ankara",
+        "Country": {
+            "ID": "TR",
+            "LocalizedName": "Turkey"
+        },
+        "AdministrativeArea": {
+            "ID": "06",
+            "LocalizedName": "Ankara"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "56912",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Anqing",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "AH",
+            "LocalizedName": "Anhui"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "59083",
+        "Type": "City",
+        "Rank": 15,
+        "LocalizedName": "Anyang",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "HA",
+            "LocalizedName": "Henan"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "102138",
+        "Type": "City",
+        "Rank": 15,
+        "LocalizedName": "Anshan",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "LN",
+            "LocalizedName": "Liaoning"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "227088",
+        "Type": "City",
+        "Rank": 20,
+        "LocalizedName": "Antananarivo",
+        "Country": {
+            "ID": "MG",
+            "LocalizedName": "Madagascar"
+        },
+        "AdministrativeArea": {
+            "ID": "T",
+            "LocalizedName": "Antananarivo"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "58492",
+        "Type": "City",
+        "Rank": 23,
+        "LocalizedName": "Anshun",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GZ",
+            "LocalizedName": "Guizhou"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "59468",
+        "Type": "City",
+        "Rank": 23,
+        "LocalizedName": "Anhua County",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "HN",
+            "LocalizedName": "Hunan"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "60986",
+        "Type": "City",
+        "Rank": 23,
+        "LocalizedName": "Anyue County",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "SC",
+            "LocalizedName": "Sichuan"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "60594",
+        "Type": "City",
+        "Rank": 23,
+        "LocalizedName": "Anqiu",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "SD",
+            "LocalizedName": "Shandong"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "60452",
+        "Type": "City",
+        "Rank": 23,
+        "LocalizedName": "Ankang",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "SN",
+            "LocalizedName": "Shaanxi"
+        }
+    }
+]
