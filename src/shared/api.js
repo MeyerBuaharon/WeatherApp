@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const API_KEY = "NOGFWxTAsaY7DqCGG6fFGb9NAUVRAKRK";
+const API_KEY = "Da5G3U1uGXGQPGrF0azGdAJy1C8kCdux";
 
 const api = axios.create({
   baseURL: "http://dataservice.accuweather.com/",
