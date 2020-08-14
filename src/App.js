@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
-import styled, { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./globalStyles";
 import { lightTheme, darkTheme } from "./shared/theme";
