@@ -7,8 +7,9 @@ import Weather from "./Weather";
 import Favorite from "./Favorite";
 
 import { withRouter, Switch, Route, Link } from "react-router-dom";
+import Toggle from "../shared/components/Toggle";
 
-const NavigationBar = () => {
+const NavigationBar = ({ theme, toggleTheme }) => {
   const allTabs = [
     {
       label: "Home",
@@ -61,6 +62,8 @@ const NavigationBar = () => {
                 </ToggleDegreeContainer>
               </Tabs>
             </AppBar>
+            <Toggle theme={theme} toggleTheme={toggleTheme} />
+
             <Switch>
               {allTabs.map(({ path, value, component }) => (
                 <Route
