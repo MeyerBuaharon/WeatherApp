@@ -6,9 +6,10 @@ import { ReactComponent as MoonIcon } from "../assets/icons/moon.svg";
 import { ReactComponent as SunIcon } from "../assets/icons/sun.svg";
 
 const ToggleContainer = styled.button`
+  outline: none;
   position: absolute;
   right: 15px;
-  bottom: 60px;
+  top: 60px;
   display: flex;
   justify-content: space-between;
   background: ${({ theme }) => theme.gradient};

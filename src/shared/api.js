@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const API_KEY = "NL2VsPH63U0u4HsFkIJ9AALsPEuEPKeh";
+const API_KEY = "n9v7ABJJMwhnuGSV4JjggKaxUIhDSF5A";
 
 const api = axios.create({
   baseURL: "https://dataservice.accuweather.com/",
@@ -24,17 +24,20 @@ const alertError = (msg) => {
 const exceeded_50_requests =
   "Error, you have exceeded number of requests, please contact the admin to refresh calls";
 
+const bad_location =
+  "Error, location not found";
+
 export const getFiveDaysWeatherApi = (city) =>
   api
     .get(`forecasts/v1/daily/5day/${city}?apikey=${API_KEY}`)
     .then((res) => res)
-    .catch((error) => alertError(exceeded_50_requests));
+    .catch((error) => console.log(error));
 
 export const currentWeatherApi = (city) =>
   api
     .get(`currentconditions/v1/${city}?apikey=${API_KEY}`)
     .then((res) => res)
-    .catch((error) => alertError(exceeded_50_requests));
+    .catch((error) => console.log(error));
 
 export const autoCompleteApi = (query) =>
   api
@@ -48,4 +51,4 @@ export const GeolocationEndpointApi = (lat, lon) =>
       `locations/v1/cities/geoposition/search?apikey=${API_KEY}&q=${lat}%2C${lon}`
     )
     .then((res) => res)
-    .catch((error) => alertError(exceeded_50_requests));
+    .catch((error) => alertError(bad_location));
