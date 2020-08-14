@@ -7,10 +7,9 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./globalStyles";
 import { lightTheme, darkTheme } from "./shared/theme";
 import { useDarkMode } from "./shared/useDarkMode";
-import Toggle from "./shared/components/Toggle";
 
 const App = () => {
-  const [theme, toggleTheme, componentMounted] = useDarkMode();
+  const [theme, toggleTheme] = useDarkMode();
   const themeMode = theme === "light" ? lightTheme : darkTheme;
 
   return (
