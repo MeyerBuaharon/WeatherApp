@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const API_KEY = "n9v7ABJJMwhnuGSV4JjggKaxUIhDSF5A";
+const API_KEY = "Fctuig14t5yGwR86mYhotjWF3R2qkTUK";
 
 const api = axios.create({
   baseURL: "https://dataservice.accuweather.com/",
@@ -31,13 +31,13 @@ export const getFiveDaysWeatherApi = (city) =>
   api
     .get(`forecasts/v1/daily/5day/${city}?apikey=${API_KEY}`)
     .then((res) => res)
-    .catch((error) => console.log(error));
+    .catch((error) => alertError(exceeded_50_requests));
 
 export const currentWeatherApi = (city) =>
   api
     .get(`currentconditions/v1/${city}?apikey=${API_KEY}`)
     .then((res) => res)
-    .catch((error) => console.log(error));
+    .catch((error) => alertError(exceeded_50_requests));
 
 export const autoCompleteApi = (query) =>
   api
